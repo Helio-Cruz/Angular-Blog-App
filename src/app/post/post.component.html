@@ -2,19 +2,15 @@
 [ngClass]="{'list-group-item': true, 
             'list-group-item-success': postStatus === 'success',
             'list-group-item-danger': postStatus === 'danger'
-}"
-
->
-  
+          }"
+> 
   <h3
     [ngStyle]="{color:getColor()}"   
   > 
     {{ postTitle }}    
-    {{ lastUpdate | async | date:'short'  | uppercase }}
-   
+    {{ lastUpdate | async | date:'short'  | uppercase }} 
   </h3>
-    {{ postContent }}
-    
+    {{ postContent }}  
   <button 
     class="btn btn-success"
     (click)="onLikeClick()"

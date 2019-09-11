@@ -16,22 +16,17 @@ export class AppComponent {
     {
       title: 'Mon Deuxième Post',
       content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. atque vitae architecto amet expedita quaerat.', 
-      status: 'danger'
-      
+      status: 'danger'      
     },
     {
       title: 'Mon Troisième Post',
       content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. atque vitae architecto amet expedita quaerat. ',
       status: 'success'
-
     },
     {
       title: 'Mon Quatrième Post',
       content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. atque vitae architecto amet expedita quaerat.',
       status: 'danger'
-
     },
   ];
-
- 
 }

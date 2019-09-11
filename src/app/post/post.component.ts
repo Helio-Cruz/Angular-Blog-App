@@ -42,18 +42,18 @@ export class PostComponent implements OnInit {
   }
 
 
-onLikeClick() {
-  this.loveIts++;
-  if(this.loveIts > 0){
-    this.postStatus = 'success'
+  onLikeClick() {
+    this.loveIts++;
+    if(this.loveIts > 0){
+      this.postStatus = 'success'
+    }
   }
-}
-onDislikeClick() {
-  this.loveIts--;
-  if(this.loveIts < 0){
-    this.postStatus = 'danger'
-  }
+  onDislikeClick() {
+    this.loveIts--;
+    if(this.loveIts < 0){
+      this.postStatus = 'danger'
+    }
 
-}
+  }
 
 }
